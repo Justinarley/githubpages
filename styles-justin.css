@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el contenedor del perfil detallado */
+.profile-container1 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Estilos para la barra lateral del perfil */
+.profile-sidebar {
+  background-color: #1a1a40;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+.profile-sidebar h3, .profile-sidebar p {
+  color: white;
+}
+
+.profile-sidebar .img-fluid {
+  border: 2px solid white;
+}
+
+.profile-sidebar strong {
+  color: white;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para la sección principal del perfil */
+.profile-main {
+  padding: 20px;
+  max-width: 800px;
+}
+
+.profile-main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.profile-main h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+.profile-main h5 {
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
+
+.profile-main p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.profile-main hr {
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+
+/* Estilos para el pie de página */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #666;
+}
