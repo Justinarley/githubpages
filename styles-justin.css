@@ -3,17 +3,19 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f0f0f0; /* Color de fondo opcional */
 }
 
 /* Estilos para el contenedor del perfil detallado */
-.profile-container1 {
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  margin: 20px;
 }
 
 /* Estilos para la barra lateral del perfil */
@@ -22,14 +24,22 @@ body {
   color: white;
   padding: 20px;
   border-radius: 10px;
-  max-width: 300px;
+  width: 330px;
+  height: 890px;
+  flex: 0 0 auto; /* No crecer, no encoger */
+  display: flex;
+  flex-direction: column;
 }
 
 .profile-sidebar h3, .profile-sidebar p {
   color: white;
+  font-size: 1.2rem; /* Tamaño de letra aumentado */
 }
 
-.profile-sidebar .img-fluid {
+.profile-sidebar .profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   border: 2px solid white;
 }
 
@@ -40,17 +50,20 @@ body {
 .profile-image-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
-.profile-image-container img {
-  max-width: 100%;
-  height: auto;
+/* Estilos para la sección de contacto */
+.profile-contact {
+  margin-top: 20px;
+  flex: 1; /* Ocupar espacio restante */
 }
 
 /* Estilos para la sección principal del perfil */
 .profile-main {
   padding: 20px;
   max-width: 800px;
+  flex: 1; /* Ocupar todo el espacio restante */
 }
 
 .profile-main h1 {
